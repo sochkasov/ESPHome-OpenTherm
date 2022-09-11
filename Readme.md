@@ -11,3 +11,7 @@ This is an example of a integration with a OpenTherm boiler using [ESPHome](http
     - Make sure the board and device settings are correct for your device
     - Set the sensor entity_id with the external temperature sensor's name from Home Assistant. (The ESPHome sensor name is temperature_sensor).
 - Flash the ESP and configure in Home Assistant. It should be auto-discovered by the ESPHome Integration.
+
+# Notes
+
+This fork is ESP32 test and another pinout

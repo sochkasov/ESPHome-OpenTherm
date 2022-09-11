@@ -7,8 +7,10 @@
 #include "opentherm_output.h"
 
 // Pins to OpenTherm Adapter
-int inPin = D2; 
-int outPin = D1;
+//int inPin = D2; 
+//int outPin = D1;
+int inPin = GPIO4;
+int outPin = GPIO5;
 OpenTherm ot(inPin, outPin, false);
 
 ICACHE_RAM_ATTR void handleInterrupt() {
